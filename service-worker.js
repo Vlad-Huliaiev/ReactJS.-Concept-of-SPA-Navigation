@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ReactJS.-Concept-of-SPA-Navigation/precache-manifest.09fa191ee98befa2cfd85573b76c940d.js"
+  "/ReactJS.-Concept-of-SPA-Navigation/precache-manifest.61f8b5042e3377c318b1aacf57a27385.js"
 );
 
 self.addEventListener('message', (event) => {
