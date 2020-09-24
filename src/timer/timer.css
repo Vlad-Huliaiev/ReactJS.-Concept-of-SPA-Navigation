@@ -1,0 +1,36 @@
+.timer-container {
+    margin: 2% auto;
+    width: 400px;
+    height: 150px;
+    border: solid 1px #000000;
+    padding: 15px 15px 15px 15px;
+    background-color: rgba(46, 49, 49, 1);
+    border-radius: 11px;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.timer-box {
+    font-size: 35px;
+}
+
+.timer-btn {
+    background: rgba(46, 49, 49, 0.9);
+    border: 2px solid #C0C0C0;
+    height: 40px;
+    width: 105px;
+    color: white;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.timer-container:hover {
+    background-color: rgba(46, 49, 49, 0.4);
+}
+
+.timer-btn:hover {
+    background-color: rgba(46, 49, 49, 0.5);
+}

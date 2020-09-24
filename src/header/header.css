@@ -1,0 +1,33 @@
+.header-wrapper{
+    background-color: rgba(46, 49, 49, 1);
+    width: 98.05vw;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.header-menu-item{
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.header-menu-item__active{
+    border-bottom: 2px solid #fff;
+}
+
+.header-username{
+    color: #fff;
+    margin-right:auto;
+}
+
+ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}

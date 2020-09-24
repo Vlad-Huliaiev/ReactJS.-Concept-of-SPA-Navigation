@@ -1,0 +1,10 @@
+.renderTimer {
+    height: 940px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    background-size: 100%;
+    background-color: #dadfe1;
+}
