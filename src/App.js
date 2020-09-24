@@ -36,7 +36,7 @@ export const MENU = [
 class App extends React.Component {
     render() {
         return (
-            <Router>
+            <Router basename='/ReactJS.-Concept-of-SPA-Navigation'>
                 <Header />
                 <Switch>
                 <Route path="/" exact render={() => <Redirect to="/start"/>} />
