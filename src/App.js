@@ -1,12 +1,11 @@
-import React from 'react';
-import Posts from './posts/posts.js';
-import Contacts from './contacts/contacts.js';
-import renderTimer  from "./timer/renderTimer.js";
+import React, {Component} from 'react';
+import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+
 import Header from "./header/header.js";
 import Start from "./start/start.js";
 import Photo from "./pin/renderPin.js";
-
-import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import Posts from './posts/posts.js';
+import Contacts from './contacts/contacts.js';
 
 
 export const MENU = [
@@ -32,10 +31,10 @@ export const MENU = [
     }
 ];
 
-
-class App extends React.Component {
+class App extends Component {
     render() {
         return (
+        <div>
             <Router basename='/ReactJS.-Concept-of-SPA-Navigation'>
                 <Header />
                 <Switch>
@@ -45,6 +44,7 @@ class App extends React.Component {
                     ))}
                 </Switch>
             </Router>
+        </div>
         )
     }
 }
