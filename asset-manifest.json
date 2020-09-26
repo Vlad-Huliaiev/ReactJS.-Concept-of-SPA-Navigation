@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ReactJS.-Concept-of-SPA-Navigation/static/css/main.8b28172f.chunk.css",
-    "main.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.1db25e47.chunk.js",
-    "main.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.1db25e47.chunk.js.map",
+    "main.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.f8f858d7.chunk.js",
+    "main.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.f8f858d7.chunk.js.map",
     "runtime-main.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/runtime-main.a9adb6d3.js",
     "runtime-main.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/runtime-main.a9adb6d3.js.map",
-    "static/js/2.629192b8.chunk.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.629192b8.chunk.js",
-    "static/js/2.629192b8.chunk.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.629192b8.chunk.js.map",
+    "static/js/2.c83cfaf4.chunk.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.c83cfaf4.chunk.js",
+    "static/js/2.c83cfaf4.chunk.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.c83cfaf4.chunk.js.map",
     "index.html": "/ReactJS.-Concept-of-SPA-Navigation/index.html",
-    "precache-manifest.10510b37a39035c9e0955108c32799d1.js": "/ReactJS.-Concept-of-SPA-Navigation/precache-manifest.10510b37a39035c9e0955108c32799d1.js",
+    "precache-manifest.bed17aa5eb0cb80c8eeb39a7c01c58c5.js": "/ReactJS.-Concept-of-SPA-Navigation/precache-manifest.bed17aa5eb0cb80c8eeb39a7c01c58c5.js",
     "service-worker.js": "/ReactJS.-Concept-of-SPA-Navigation/service-worker.js",
     "static/css/main.8b28172f.chunk.css.map": "/ReactJS.-Concept-of-SPA-Navigation/static/css/main.8b28172f.chunk.css.map",
-    "static/js/2.629192b8.chunk.js.LICENSE.txt": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.629192b8.chunk.js.LICENSE.txt",
+    "static/js/2.c83cfaf4.chunk.js.LICENSE.txt": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.c83cfaf4.chunk.js.LICENSE.txt",
     "static/media/1.jpg": "/ReactJS.-Concept-of-SPA-Navigation/static/media/1.50b2c279.jpg",
     "static/media/10.jpg": "/ReactJS.-Concept-of-SPA-Navigation/static/media/10.b0b32625.jpg",
     "static/media/11.jpg": "/ReactJS.-Concept-of-SPA-Navigation/static/media/11.36701627.jpg",
@@ -45,8 +45,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a9adb6d3.js",
-    "static/js/2.629192b8.chunk.js",
+    "static/js/2.c83cfaf4.chunk.js",
     "static/css/main.8b28172f.chunk.css",
-    "static/js/main.1db25e47.chunk.js"
+    "static/js/main.f8f858d7.chunk.js"
   ]
 }
