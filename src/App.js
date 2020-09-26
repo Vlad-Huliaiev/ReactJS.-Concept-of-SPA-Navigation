@@ -33,7 +33,7 @@ export const Menu = [
 class App extends React.Component {
     render() {
         return (
-            <Router basename='/ReactJS.-Concept-of-SPA-Navigation'>
+            <Router basename="/ReactJS.-Concept-of-SPA-Navigation">
                 <Header />
                 <div>
                     <Switch>
