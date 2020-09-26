@@ -36,7 +36,6 @@ function App() {
         <div>
             <Router basename='/ReactJS.-Concept-of-SPA-Navigation'>
                 <Header />
-                <Route path="/" exact render={() => <Redirect to="/start"/>}/>
                 <Switch>
                     <Route path="/" exact render={() => <Redirect to="/start"/>}/>
                     <Route path='/start'>
