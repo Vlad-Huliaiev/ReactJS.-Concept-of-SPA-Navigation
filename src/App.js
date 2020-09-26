@@ -10,21 +10,21 @@ import Contacts from './contacts/contacts.js';
 export const Menu = [
     {
         title: "start",
-        path: "start",
+        path: "/start",
         component: Start ,
     },{
         title: "photo",
-        path: "photo",
+        path: "/photo",
         component: Photo,
         exact: true
     },{
         title: "posts",
-        path: "posts",
+        path: "/posts",
         component: Posts,
         exact: true
     },{
         title: "contacts",
-        path: "contacts",
+        path: "/contacts",
         component: Contacts,
         exact: true
     }
@@ -36,18 +36,19 @@ function App() {
         <div>
             <Router basename={'/ReactJS.-Concept-of-SPA-Navigation'}>
                 <Header />
+                <Route path="/" exact render={() => <Redirect to="/start"/>}/>
                 <Switch>
                     <Route path="/" exact render={() => <Redirect to="/start"/>}/>
-                    <Route exact path='/start'>
+                    <Route path='/start'>
                         <Start />
                     </Route>
-                    <Route exact path='/photo'>
+                    <Route path='/photo'>
                         <Photo />
                     </Route>
-                    <Route exact path='/posts'>
+                    <Route path='/posts'>
                         <Posts />
                     </Route>
-                    <Route exact path='/contacts'>
+                    <Route path='/contacts'>
                         <Contacts />
                     </Route>
                 </Switch>

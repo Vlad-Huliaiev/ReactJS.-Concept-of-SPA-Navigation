@@ -1,3 +1,31 @@
+//                    <Route path="/" exact render={() => <Redirect to="/start"/>}/>
+//                    <Route exact path='/start'>
+//                        <Start />
+//                    </Route>
+//                    <Route exact path='/photo'>
+//                        <Photo />
+//                    </Route>
+//                    <Route exact path='/posts'>
+//                        <Posts />
+//                    </Route>
+//                    <Route exact path='/contacts'>
+//                        <Contacts />
+//                    </Route>
+
+
+
+<Route path="/start" component={Start}/>
+                    <Route path="/photo" component={Photo}/>
+                    <Route path="/posts" component={Posts}/>
+                    <Route path="/contacts" component={Contacts}/>
+                    {/*Menu.map(({path, component: Component, exact = false}) => (
+                        <Route path = {path} exact = {exact} component = {Component}/>
+                    ))*/}
+
+
+
+
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/eW7Twd85m2g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 im
