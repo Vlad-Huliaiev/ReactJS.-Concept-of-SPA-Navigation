@@ -30,30 +30,31 @@ export const Menu = [
     }
 ];
 
-function App() {
-
+class App extends React.Component {
+    render() {
         return (
-        <div>
             <Router basename='/ReactJS.-Concept-of-SPA-Navigation'>
                 <Header />
-                <Switch>
-                    <Route path="/" exact render={() => <Redirect to="/start"/>}/>
-                    <Route path='/start'>
-                        <Start />
-                    </Route>
-                    <Route path='/photo'>
-                        <Photo />
-                    </Route>
-                    <Route path='/posts'>
-                        <Posts />
-                    </Route>
-                    <Route path='/contacts'>
-                        <Contacts />
-                    </Route>
-                </Switch>
+                <div>
+                    <Switch>
+                        <Route path="/" exact render={() => <Redirect to="/start"/>}/>
+                        <Route path="/start">
+                            <Start />
+                        </Route>
+                        <Route path="/photo">
+                            <Photo />
+                        </Route>
+                        <Route path="/posts">
+                            <Posts />
+                        </Route>
+                        <Route path="/contacts">
+                            <Contacts />
+                        </Route>
+                    </Switch>
+                </div>
             </Router>
-        </div>
         )
     }
+}
 
 export default App;
