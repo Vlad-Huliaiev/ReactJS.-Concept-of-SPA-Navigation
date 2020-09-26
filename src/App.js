@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 
 import Header from "./header/header.js";
@@ -31,17 +31,18 @@ export const Menu = [
     }
 ];
 
-class App extends React.Component {
+class App extends Component {
     render() {
         return (
         <div>
             <Router basename='/ReactJS.-Concept-of-SPA-Navigation'>
                 <Header />
                 <Switch>
-                <Route path="/" exact render={() => <Redirect to="/start"/>} />
-                    {Menu.map(({path, component: Component, exact = false}) => (
-                        <Route exact = {exact} path = {path} component = {Component} />
-                    ))}
+                    <Route path="/" exact render={() => <Redirect to="/start"/>} />
+                    <Route exact path={'/start'} component={Start} />
+                    <Route exact path={'/photo'} component={Photo} />
+                    <Route exact path={'/posts'} component={Posts} />
+                    <Route exact path={'/contacts'} component={Contacts} />
                 </Switch>
             </Router>
         </div>
