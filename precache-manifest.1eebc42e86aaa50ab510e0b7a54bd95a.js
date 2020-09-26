@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "474cbf6a067262bbf30ba92952d0c34d",
+    "revision": "03ab340c82c6183300add67e34354617",
     "url": "/ReactJS.-Concept-of-SPA-Navigation/index.html"
   },
   {
-    "revision": "e237603bdebd7cfa813d",
+    "revision": "4946af2b7ce4b3512ac9",
     "url": "/ReactJS.-Concept-of-SPA-Navigation/static/css/main.8b28172f.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.c83cfaf4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e237603bdebd7cfa813d",
-    "url": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.8dbc2f5d.chunk.js"
+    "revision": "4946af2b7ce4b3512ac9",
+    "url": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.1940027d.chunk.js"
   },
   {
     "revision": "655d5afdb46742fde920",
