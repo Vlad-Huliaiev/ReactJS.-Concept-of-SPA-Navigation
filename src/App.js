@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 
 import Header from "./header/header.js";
@@ -38,11 +38,11 @@ function App() {
             <Router basename={'/ReactJS.-Concept-of-SPA-Navigation'}>
                 <Header />
                 <Switch>
-                    <Route path="/" exact render={() => <Redirect to="/start"/>} />
-                    <Route exact path={'/start'} component={start} />
-                    <Route exact path={'/photo'} component={photo} />
-                    <Route exact path={'/posts'} component={posts} />
-                    <Route exact path={'/contacts'} component={contacts} />
+                    <Route path="/" exact render={() => <Redirect to="/start"/>}/>
+                    <Route exact path='/start' component={start}/>
+                    <Route exact path='/photo' component={photo}/>
+                    <Route exact path='/posts' component={posts}/>
+                    <Route exact path='/contacts' component={contacts}/>
                 </Switch>
             </Router>
         </div>
