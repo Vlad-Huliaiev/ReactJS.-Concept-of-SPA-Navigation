@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactJS.-Concept-of-SPA-Navigation/static/css/main.8b28172f.chunk.css",
-    "main.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.1a35473c.chunk.js",
-    "main.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.1a35473c.chunk.js.map",
+    "main.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.9d648e20.chunk.js",
+    "main.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/main.9d648e20.chunk.js.map",
     "runtime-main.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/runtime-main.a9adb6d3.js",
     "runtime-main.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/runtime-main.a9adb6d3.js.map",
     "static/js/2.629192b8.chunk.js": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.629192b8.chunk.js",
     "static/js/2.629192b8.chunk.js.map": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.629192b8.chunk.js.map",
     "index.html": "/ReactJS.-Concept-of-SPA-Navigation/index.html",
-    "precache-manifest.e31efdb6e25a514faa99c8d223c59d43.js": "/ReactJS.-Concept-of-SPA-Navigation/precache-manifest.e31efdb6e25a514faa99c8d223c59d43.js",
+    "precache-manifest.24e0a35698f132b565b00928ae0d76ed.js": "/ReactJS.-Concept-of-SPA-Navigation/precache-manifest.24e0a35698f132b565b00928ae0d76ed.js",
     "service-worker.js": "/ReactJS.-Concept-of-SPA-Navigation/service-worker.js",
     "static/css/main.8b28172f.chunk.css.map": "/ReactJS.-Concept-of-SPA-Navigation/static/css/main.8b28172f.chunk.css.map",
     "static/js/2.629192b8.chunk.js.LICENSE.txt": "/ReactJS.-Concept-of-SPA-Navigation/static/js/2.629192b8.chunk.js.LICENSE.txt",
@@ -47,6 +47,6 @@
     "static/js/runtime-main.a9adb6d3.js",
     "static/js/2.629192b8.chunk.js",
     "static/css/main.8b28172f.chunk.css",
-    "static/js/main.1a35473c.chunk.js"
+    "static/js/main.9d648e20.chunk.js"
   ]
 }
