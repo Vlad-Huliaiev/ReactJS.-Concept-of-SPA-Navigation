@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 
 import Header from "./header/header.js";
@@ -8,30 +8,30 @@ import Posts from './posts/posts.js';
 import Contacts from './contacts/contacts.js';
 
 
-export const MENU = [
+export const Menu = [
     {
-        title: "Start",
+        title: "start",
         path: "/start",
         component: Start ,
     },{
-        title: "Photo",
-        path: "/Photo",
+        title: "photo",
+        path: "/photo",
         component: Photo,
         exact: true
     },{
-        title: "Posts",
+        title: "posts",
         path: "/posts",
         component: Posts,
         exact: true
     },{
-        title: "Contacts",
+        title: "contacts",
         path: "/contacts",
         component: Contacts,
         exact: true
     }
 ];
 
-class App extends Component {
+class App extends React.Component {
     render() {
         return (
         <div>
@@ -39,8 +39,8 @@ class App extends Component {
                 <Header />
                 <Switch>
                 <Route path="/" exact render={() => <Redirect to="/start"/>} />
-                    {MENU.map(({path, component, exact=false}) => (
-                        <Route path={path} exact={exact} component={component} />
+                    {Menu.map(({path, component: Component, exact = false}) => (
+                        <Route exact = {exact} path = {path} component = {Component} />
                     ))}
                 </Switch>
             </Router>
