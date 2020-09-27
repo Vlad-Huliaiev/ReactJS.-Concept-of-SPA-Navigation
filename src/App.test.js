@@ -22,7 +22,16 @@
                         <Route path = {path} exact = {exact} component = {Component}/>
                     ))*/}
 
-
+                        </Route>
+                        <Route path="/photo">
+                            <Photo />
+                        </Route>
+                        <Route path="/posts">
+                            <Posts />
+                        </Route>
+                        <Route path="/contacts">
+                            <Contacts />
+                        </Route>
 
 
 

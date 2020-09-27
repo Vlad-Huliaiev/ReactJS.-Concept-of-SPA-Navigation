@@ -2,59 +2,49 @@ import React from 'react';
 import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 
 import Header from "./header/header.js";
-import Start from "./start/start.js";
-import Photo from "./pin/renderPin.js";
-import Posts from './posts/posts.js';
-import Contacts from './contacts/contacts.js';
+import Main from "./start/start.js";
+import Photos from "./pin/renderPin.js";
+import Post from './posts/posts.js';
+import Contact from './contacts/contacts.js';
 
 export const Menu = [
     {
-        title: "start",
+        title: "main",
         path: "/start",
-        component: Start ,
+        component: Main,
     },{
-        title: "photo",
-        path: "/photo",
-        component: Photo,
+        title: "photos",
+        path: "/photos",
+        component: Photos,
         exact: true
     },{
-        title: "posts",
-        path: "/posts",
-        component: Posts,
+        title: "post",
+        path: "/post",
+        component: Post,
         exact: true
     },{
-        title: "contacts",
-        path: "/contacts",
-        component: Contacts,
+        title: "contact",
+        path: "/contact",
+        component: Contact,
         exact: true
     }
 ];
 
-class App extends React.Component {
-    render() {
+function App() {
         return (
             <Router basename="/ReactJS.-Concept-of-SPA-Navigation">
-                <Header />
                 <div>
+                <Header />
                     <Switch>
-                        <Route path="/" exact render={() => <Redirect to="/start"/>}/>
-                        <Route path="/start">
-                            <Start />
-                        </Route>
-                        <Route path="/photo">
-                            <Photo />
-                        </Route>
-                        <Route path="/posts">
-                            <Posts />
-                        </Route>
-                        <Route path="/contacts">
-                            <Contacts />
-                        </Route>
+                        <Route path="/main" render = {() => <Main />} />
+                        <Route path="/photos" render = {() => <Photos />} />
+                        <Route path="/post" render = {() => <Post />} />
+                        <Route path="/contact" render = {() => <Contact />} />
+                        <Route path="/" exact render={() => <Redirect to="/main"/>}/>
                     </Switch>
                 </div>
             </Router>
-        )
-    }
-}
+        );
+    };
 
 export default App;
