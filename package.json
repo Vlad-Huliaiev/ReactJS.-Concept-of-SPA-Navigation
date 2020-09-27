@@ -1,8 +1,8 @@
 {
-  "homepage": "http://Vlad-Huliaiev.github.io/ReactJS.-Concept-of-SPA-Navigation",
   "name": "react-hw-05",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Vlad-Huliaiev.github.io/ReactJS.-Concept-of-SPA-Navigation/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

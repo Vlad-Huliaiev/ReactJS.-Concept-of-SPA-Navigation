@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
+import {HashRouter, Switch, Route, Redirect} from "react-router-dom";
 
 import Header from "./header/header.js";
 import Main from "./start/start.js";
@@ -32,7 +32,7 @@ export const Menu = [
 
 function App() {
         return (
-            <Router basename="/ReactJS.-Concept-of-SPA-Navigation">
+            <HashRouter>
                 <div>
                 <Header />
                     <Switch>
@@ -43,7 +43,7 @@ function App() {
                         <Route path="/" exact render={() => <Redirect to="/main"/>}/>
                     </Switch>
                 </div>
-            </Router>
+            </HashRouter>
         );
     };
 
